@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  nginx:
+    image: 'classweb:2.0'
+    ports:
+      - '80:8080'
